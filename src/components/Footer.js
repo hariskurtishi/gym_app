@@ -8,7 +8,11 @@ const Footer = () => {
       <Stack gap="40px" alignItems="center" px="40px" pt="56px">
         <img src={Logo} alt="logo" width="70px" height="70px" />
         <Typography variant="h6" pb="40px" mt="15px">
-          Made with ❤️ by Haris Kurtishi
+          Made with ❤️ by
+          <a href="https:/hariskurtishi.com/"  rel="noreferrer" className="">
+            {""}
+            Haris Kurtishi
+          </a>
         </Typography>
       </Stack>
     </Box>
